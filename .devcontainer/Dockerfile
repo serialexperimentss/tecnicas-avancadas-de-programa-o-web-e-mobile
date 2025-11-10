@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     unzip \    
     && rm -rf /var/lib/apt/lists/*
 
-RUN echo "CREATE USER 'augusto'@'localhost' IDENTIFIED BY 'q1w2e3r4'; \
+RUN echo "CREATE USER 'afonso'@'localhost' IDENTIFIED BY 'saf2020#pms'; \
         GRANT ALL PRIVILEGES ON *.* TO 'augusto'@'localhost' WITH GRANT OPTION; \
         FLUSH PRIVILEGES;" > /tmp/script.sql
 
